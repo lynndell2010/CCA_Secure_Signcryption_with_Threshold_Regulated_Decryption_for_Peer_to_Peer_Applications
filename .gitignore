@@ -1,0 +1,14 @@
+*.tex
+*.pdf
+*.docx
+*.bib
+*.aux
+*.log
+*.zip
+*.key
+*.pem
+*.bin
+*.r1cs
+.env*
+.DS_Store
+__pycache__/

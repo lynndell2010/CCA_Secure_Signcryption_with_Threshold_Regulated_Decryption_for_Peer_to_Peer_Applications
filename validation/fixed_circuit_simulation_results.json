@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "backend": "gnark v0.16.5 / BLS12-381 Groth16 with masked commitments",
+  "test_source_sha256": "e65de8430e16ce72465c2a05631ba3df7a1fbf805ac8461afff1ea2f9008eeb2",
+  "small_circuits": {
+    "commitment_counts": [
+      0,
+      1,
+      2
+    ],
+    "adaptive_simulated_statements_per_count": 12,
+    "known_false_statements_per_count": 6,
+    "ordinary_true_proofs_per_count": 1,
+    "mutated_public_input_rejections_per_count": 12
+  },
+  "full_circuit": {
+    "constraints": 2935324,
+    "commitments": 1,
+    "ordinary_proof_verified": true,
+    "simulated_original_statement_verified": true,
+    "simulated_changed_label_verified": true,
+    "original_proof_rejected_changed_label": true,
+    "simulated_proof_bytes": 292,
+    "test_seconds": 607.23
+  },
+  "trapdoor_policy": "fresh in-memory test setup; no trapdoor, simulated CRS or simulated proof exported; no production simulator entry point",
+  "scope": "fixed-circuit simulator algebra and actual backend checks; not a proof of the concrete seed/label hybrid or full end-to-end CCA security"
+}

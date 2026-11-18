@@ -1,0 +1,26 @@
+{
+  "full_proofs": 20,
+  "baseline_trials": 20,
+  "collection_trials": 900,
+  "source_hashes_checked": [
+    "benchmark_current_profile.py",
+    "benchmark_current_baseline.py",
+    "strd_reference.py",
+    "strd_nizk_profile.py",
+    "strd_schnorr.py",
+    "benchmark_trs.py",
+    "hash_to_curve_p256.py",
+    "rfc9180_p256_dhkem.py",
+    "session_ledger.py",
+    "nizk_full_relation/main.go",
+    "nizk_full_relation/worker.go",
+    "nizk_full_relation/circuit.go",
+    "nizk_full_relation/native.go",
+    "nizk_full_relation/go.mod",
+    "nizk_full_relation/go.sum"
+  ],
+  "round_trip_checks": "Each STRD sample: recipient and two regulatory subsets; standalone proof accepted; modified public label rejected. Each baseline: both paths recover; sub-threshold input rejected.",
+  "circuit_5_3": "valid witness accepted; 13 invalid witnesses rejected",
+  "figure_provenance": "figures/current_manifest.json",
+  "security_scope": "Conditional adaptive multi-session IND-CCA reduction; fixed-circuit/protocol-hash model condition retained."
+}

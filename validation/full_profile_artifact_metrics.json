@@ -1,0 +1,52 @@
+{
+  "profile": "STRD-P256-DHKEM-WIDE-v1",
+  "n": 3,
+  "t": 2,
+  "constraints": 2935324,
+  "proof_bytes": 292,
+  "setup": {
+    "program_elapsed_seconds": 633.241,
+    "process_wall_seconds": 824.18,
+    "max_resident_bytes": 3877830656,
+    "peak_footprint_bytes": 6631118704
+  },
+  "standalone_prove": {
+    "backend_prover_seconds": 25.397235375,
+    "backend_solver_seconds": 1.235386,
+    "program_elapsed_seconds": 332.364,
+    "process_wall_seconds": 334.13,
+    "max_resident_bytes": 5368594432,
+    "peak_footprint_bytes": 6057202464
+  },
+  "artifact_bytes": {
+    "circuit.r1cs": 173362881,
+    "proving.key": 1007354655,
+    "verifying.key": 7200
+  },
+  "source_sha256": {
+    "strd_nizk_profile.py": "5243e42b1d47af4ac0ec85c0c0f90c92cbaa8e9bd4c8a4b2cb4ce35e5956b426",
+    "strd_schnorr.py": "3b868f9561e9f0b31852bb44b0ac46304c992da7795290673a08fbb49869d869",
+    "strd_reference.py": "bb556a081a27e6a430d3ddd42a4ce17ea6a46804919fc948486ae0803c94eea0",
+    "benchmark_full_profile.py": "5736e39e0e5738a97c84afe009d3a511434a0be0e99a8f72489c1ccae56bd025",
+    "test_strd_profile_components.py": "5b162b23bebb5ec62b86be184bb73d40d4f2471d41d7dfe88b43b7fe3efdc6fd",
+    "test_strd_reference_gates.py": "92c7461d21aeaf61d7a5444305d7fada39f7bb205ee32d2a00d7c0aa4d8c3bf9",
+    "nizk_full_relation/circuit.go": "e2be808b74598c6287947e6a17d9a270a44a51fddd84d6746997ddc9976f5bb1",
+    "nizk_full_relation/circuit_test.go": "819097fbc0b8dd6a15d7e1cf29a700cbea7b63d5b143c766add25834878c5cd2",
+    "nizk_full_relation/main.go": "4db48b168218bca99f33e9a54b1fe6e1b1f191cf081d23d4bcccf0fbd9a30173",
+    "nizk_full_relation/native.go": "cdd36af018e041364991e4c7c6a561e69ddcf8ea383605b0fbe823c2ad3afb36",
+    "nizk_full_relation/go.mod": "ac51d55ba32af7412d228cadc49a010258f28494aed1df525acac579f316bae5",
+    "nizk_full_relation/go.sum": "abd4b3bb4d5780493e30502ee6279481cb653ece814fd65188fddcea2a7191f4"
+  },
+  "notes": [
+    "Actual serialized proof verified independently and in a separate full protocol integration run.",
+    "Source hashes identify the final source snapshot; only source files participating in a run determine that run.",
+    "Elapsed program time, process wall time, and backend timer are different measurements; no unmeasured cause is inferred from their difference.",
+    "One run; not a performance distribution, proof of computational security, or production setup ceremony."
+  ],
+  "public_example_sha256": {
+    "public.json": "175470198437a5a96eda3e86a70a2be237e647c131cde99a39620f4b30066e59",
+    "proof.bin": "3f259c8bac3039f1b35395730a8de05babcc5e04640153c2cc1fecdc8f257daf",
+    "verifying.key": "171f75742f53ac94bb83f2d3b553cda5a28acbb9387d0127736ac21ea718e78c",
+    "shape.json": "8f6474f5f62e8c9f0d9308da7de0269d82416581e00fc8d7e00b6dd47e125e7c"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "generator_sha256": "928cf43dc1e775c765c27d6359bd3cc7de19b4a8ecd9c3e5815a71d36a484551",
+  "inputs": {
+    "benchmark_current_3_2.json": "7e806cb004889e3e3f87e1cd191aa348f597bf6f041cdcfcd5633640039466d0",
+    "benchmark_current_5_3.json": "41986f73bbd700b71f61a8b55b72cc2e1909acbf0b3135009ded45df82646ef2",
+    "benchmark_current_p2p.json": "79bf2a4466e9d2968fef54e9f6c25595314deeece2ca84d67fa9e639dcca3570"
+  },
+  "csv": {
+    "scheme_1kb.csv": "de73fc92550e0a825ae021cd891c09eeaa3e8ffe46cf2bf0b45e9459a85c6585",
+    "threshold_compare_1kb.csv": "b42c451d90071951a16a56682d381b5ffe175bee1ef1978277609c4ad99c2fca",
+    "scheme_1mb.csv": "9fa9e7f6ffa7b0899c7e5ccd66ccbe107e30bf0ceb0ce581b4bf01e55589d9a0",
+    "threshold_compare_1mb.csv": "ee8a25c291a3bcaf3b36c3c884d1d920042e281493d38b8619f491ccb5a45fdf",
+    "p2p_emulation.csv": "3130c2a8d6b344d14e5082c38f35ef83726b0f16743c1593eba3b195c1645986"
+  }
+}
